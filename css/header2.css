@@ -1,0 +1,121 @@
+#header2
+{
+    border-bottom: 1px solid #f7f7f7;
+    background: #333;
+}
+#header2 .top-header p
+{
+    font-size: 11px;
+    margin-bottom:0;
+    color:#656565;
+}
+#header2 .top-header .phone
+{
+    color:#656565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#header2 .top-header .phone i
+{
+    color: #27c7d8;
+}
+#header2 .top-header .phone span
+{
+    font-size: 12px;
+}
+#header2 nav .nav-item .nav-link
+{
+    padding:0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    transition: .3s;
+    text-transform: uppercase;
+    color:#000;
+}
+#header2 nav .nav-item .nav-link:hover,
+#header2 nav .nav-item .nav-link.active
+{
+    color: #17c6aa;
+}
+#header2 nav .nav-item.sales
+{
+    position: relative;
+}
+#header2 .dropdown-menu
+{
+    border:0;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    width: 300px;
+    top:54px;
+    padding:0;
+}
+#header2 .dropdown-menu li
+{
+    text-transform: capitalize;
+}
+#header2 nav .nav-item.sales .sale
+{
+    position: absolute;
+    top: -18px;
+    right: 15px;
+    background: #17c6aa;
+    color:#fff;
+    border-radius:2px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:1px 4px 0;
+}
+#header2 nav .nav-item.sales .sale::after
+{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -4px;
+    content: ' ';
+    pointer-events: none;
+    border: solid transparent;
+    border-width: 4px;
+    border-top-color: #17c6aa;
+}
+
+#header2 .add-cart i
+{
+    font-size: 40px;
+    margin-right: 20px;
+}
+#header2 .add-cart p,
+#header2 .add-cart h6
+{
+    margin:0;
+    padding:0;
+    font-size:13px;
+    
+}
+@media all and (max-width:991px)
+{
+    .navbar-collapse
+    {
+        text-align: center;
+        justify-content: center;
+    }
+    #header2 nav .nav-item
+    {
+        margin:10px 0;
+    }
+    #header2 .top-header .col-lg-2
+    {
+        display: flex;
+        justify-content: center;
+        margin:10px 0;
+    }
+    #header2 .top-header .col-lg-4
+    {
+        margin:10px 0;
+    }
+}
